@@ -42,18 +42,17 @@ nav ul {
 }
 
 nav span {
-  display: inline-block;
   margin-right: 36px;
   font-family: "Bangers", cursive;
   font-size: 24px;
   color: #fed330;
+  text-align: left;
 }
 
 nav li {
-  display: inline-block;
   margin-right: 36px;
   position: relative;
-  text-align: center;
+  display: inline-block;
 }
 
 .splash {
@@ -155,7 +154,6 @@ header .page-title {
   border: 2px solid #dfe4ea;
   border-radius: 5px;
   background-color: #fff;
-
 }
 
 .three h3 {
@@ -190,6 +188,7 @@ section > footer > ul > li > p {
 
 section footer ul {
   position: relative;
+  
 }
 
 section footer li {
