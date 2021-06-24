@@ -34,25 +34,28 @@ nav {
   padding: 12px 0;
 }
 
-nav ul {
+.first ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: right;
 }
-
-nav span {
+.first div {
+  display: inline-block;
+  
+}
+.first span {
   margin-right: 36px;
   font-family: "Bangers", cursive;
   font-size: 24px;
   color: #fed330;
-  text-align: left;
 }
 
-nav li {
+.first li {
+  display: inline-block;
   margin-right: 36px;
   position: relative;
-  display: inline-block;
+  text-align: center;
 }
 
 .splash {
@@ -63,7 +66,9 @@ nav li {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
+.splash span{
+  color: #fff
+}
 header .btn {
   display: inline-block;
   min-width: 160px;
@@ -154,6 +159,9 @@ header .page-title {
   border: 2px solid #dfe4ea;
   border-radius: 5px;
   background-color: #fff;
+  max-height: 500px;
+  max-width: 380px;
+
 }
 
 .three h3 {
@@ -188,7 +196,6 @@ section > footer > ul > li > p {
 
 section footer ul {
   position: relative;
-  
 }
 
 section footer li {
